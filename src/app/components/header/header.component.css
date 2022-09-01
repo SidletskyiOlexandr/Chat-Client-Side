@@ -1,0 +1,38 @@
+.header-container{
+    padding: 10px;
+    height: 34px;
+    background-color: #262626;
+    z-index: 100;
+    line-height: 54px;
+    margin-bottom: 1px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-rocket{
+    -webkit-text-fill-color: rgb(237, 127, 34);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+.logo-title{
+    color: rgb(26 57 103);
+    padding-left: 5px;
+    /* --wp--preset--font-size--normal: 30px;
+    --wp--preset--font-size--huge: 42px; */
+}
+.login-button{
+    background-color: rgb(237, 127, 34);
+    /* color: white; */
+    border-radius: 5px;
+}
+.login-button:hover{
+background-color: rgb(248, 112, 0);
+}
+
+
