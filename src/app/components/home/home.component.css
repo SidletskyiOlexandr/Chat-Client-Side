@@ -1,0 +1,15 @@
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #b7b7b7;
+}
+.blue button{
+    background-color: #0007AA;
+}
+.padding-top-20{
+    padding-top: 20px;
+}
