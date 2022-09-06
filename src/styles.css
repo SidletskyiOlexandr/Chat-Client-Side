@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    color: white;
 }
 
 body{
@@ -10,5 +9,22 @@ body{
     font-weight: 400;
 }
 
-html, body { height: 100%; }
+html, body { height: 100vh; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+a {
+    text-decoration: none;
+    margin: 7px 0;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0007AA;
+    text-transform: uppercase;
+    transition: 0.3s;
+    opacity: 0.75;
+    letter-spacing: 1px;
+}
+.header-menu a:hover{
+    color: #FF9900;
+    opacity: 1;
+}
