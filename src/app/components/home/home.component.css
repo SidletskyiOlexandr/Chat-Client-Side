@@ -14,7 +14,50 @@
 } */
 
 .container{
-    padding-top: 300px;
-    background: #b7b7b7;
-    height: 100vh;
+    /* border: 2px solid #006100; */
+    max-width: 1140px; 
+    margin: auto;
+    position: relative;
+    /* background-color: #006100; */
+    height: 100%;
+}
+.top-section{
+    padding-top: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background: rgb(162, 146, 146); */
+    display: table;
+    /* flex-direction: row; */
+    /* vertical-align: middle; */
+}
+.description-container{
+    max-width: 500px;
+    display: table-cell;
+    vertical-align: middle
+}
+.title-text{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+.description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 32px;
+    /* text-align: center; */
+}
+.description-img{
+    width: 100%;
+    height: auto;
+}
+.image-container{
+    display: table-cell;
+    vertical-align: middle
+}
+.login-btn{
+    padding-top: 30px;
 }
