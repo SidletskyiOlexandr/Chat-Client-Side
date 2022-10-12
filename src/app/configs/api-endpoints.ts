@@ -1,0 +1,1 @@
+export const loginUrl = 'https://localhost:5001/api/Authentification/login';
