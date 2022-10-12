@@ -15,6 +15,7 @@ header{
     z-index: 1;
 }
 .logo{
+    padding-left: 10px;
     display: flex;
     align-content: center;
 }
